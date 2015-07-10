@@ -1,0 +1,2 @@
+../$(OBJS_DIR)/filght.o:flight.c
+	    $(CC) -c $^ -o $@

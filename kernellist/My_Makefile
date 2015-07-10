@@ -1,0 +1,7 @@
+CC=gcc
+WALL= -Wall -g -O0
+#../$(OBJS_DIR)/f1.o:f1.c
+kernellist:kernellist.c test.c
+	    $(CC) $(WALL) $^ -o $@
+clean:
+	    $(RM) kernellist .*.sw?
