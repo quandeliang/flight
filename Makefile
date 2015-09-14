@@ -1,3 +1,5 @@
+
+xx= x
 CC = gcc
 WALL= -Wall -g -O0
 SUBDIRS:= kernellist main file obj
